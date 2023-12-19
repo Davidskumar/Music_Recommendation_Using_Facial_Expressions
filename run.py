@@ -12,9 +12,9 @@ from emotion_video_classifier import emotion_testing
 import tkinter as tk
 from tkinter import messagebox
 
-client_id = "ce49188218664135a243d9a71c70564d"
-client_secret = "ca0a2bb327b240edbfe74cda8a15546d"
-client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
+client_id = "Your client id"
+client_secret = "Your client secret"
+ client_credentials_manager= SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 root = tk.Tk()
